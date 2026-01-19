@@ -4,13 +4,13 @@
   "description": "Select and embed images from Immich photo management",
   "icon": "photo_library",
   "license": "MIT",
-  "author": "Alex Beez",
+  "author": "be-ez",
   "repository": {
     "type": "git",
     "url": "https://github.com/be-ez/directus-extension-immich"
   },
   "keywords": ["directus-extension", "directus", "immich", "images", "photos", "media"],
-  "files": ["dist", "README.md"],
+  "files": ["dist", "README.md", "LICENSE"],
   "directus:extension": {
     "type": "bundle",
     "path": {
