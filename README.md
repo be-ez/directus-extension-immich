@@ -12,6 +12,17 @@ A Directus extension that integrates [Immich](https://immich.app/) with Directus
 - **Album Sync** - Link selections to albums with ability to sync when album contents change
 - **Image Display** - Display component for showing selected Immich images
 
+## Screenshots
+
+### Select Button
+![Select from Immich button](docs/images/button.png)
+
+### Search & Filters
+![Search and filter interface](docs/images/search_and_filter.png)
+
+### Field Interface
+![Immich Image field interface](docs/images/model.png)
+
 ## Requirements
 
 - Directus 10.x or later
@@ -44,10 +55,15 @@ A Directus extension that integrates [Immich](https://immich.app/) with Directus
 
 ### Getting an Immich API Key
 
-1. Open Immich and go to **Account Settings**
+1. Open Immich and go to **Account Settings** (click your user icon in the top right)
 2. Navigate to **API Keys**
-3. Click **New API Key** and give it a name
-4. Copy the generated key
+3. Click **New API Key** and give it a name (e.g., "Directus Extension")
+4. **Important**: Select the required scopes:
+   - `asset:read` - Required to browse and view images
+   - `album:read` - Required to browse albums
+5. Click **Create** and copy the generated key
+
+**Note**: The extension only requires read access. It does not modify, upload, or delete any assets in your Immich library.
 
 ## Usage
 
