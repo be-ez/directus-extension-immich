@@ -7,10 +7,21 @@
   "author": "be-ez",
   "repository": {
     "type": "git",
-    "url": "https://github.com/be-ez/directus-extension-immich"
+    "url": "git+https://github.com/be-ez/directus-extension-immich.git"
   },
-  "keywords": ["directus-extension", "directus", "immich", "images", "photos", "media"],
-  "files": ["dist", "README.md", "LICENSE"],
+  "keywords": [
+    "directus-extension",
+    "directus",
+    "immich",
+    "images",
+    "photos",
+    "media"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "directus:extension": {
     "type": "bundle",
     "path": {
@@ -39,8 +50,14 @@
       "enabled": true,
       "requestedScopes": {
         "request": {
-          "methods": ["GET", "POST"],
-          "urls": ["https://*", "http://*"]
+          "methods": [
+            "GET",
+            "POST"
+          ],
+          "urls": [
+            "https://*",
+            "http://*"
+          ]
         }
       }
     }
