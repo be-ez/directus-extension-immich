@@ -63,6 +63,12 @@ export interface ImmichImageValue {
   thumbhash?: string | null;
 }
 
+export interface ImmichSelectionValue {
+  albumId?: string;
+  albumName?: string;
+  images: ImmichImageValue[];
+}
+
 export type ThumbnailSize = 'thumbnail' | 'preview';
 
 export interface ImmichStack {
