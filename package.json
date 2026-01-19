@@ -39,7 +39,7 @@
       "enabled": true,
       "requestedScopes": {
         "request": {
-          "methods": ["GET"],
+          "methods": ["GET", "POST"],
           "urls": ["https://*", "http://*"]
         }
       }
