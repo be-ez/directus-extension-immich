@@ -1,0 +1,52 @@
+{
+  "name": "directus-extension-immich",
+  "version": "1.0.0",
+  "description": "Select and embed images from Immich photo management",
+  "icon": "photo_library",
+  "license": "MIT",
+  "keywords": ["directus-extension", "immich", "images", "photos"],
+  "directus:extension": {
+    "type": "bundle",
+    "path": {
+      "app": "dist/app.js",
+      "api": "dist/api.js"
+    },
+    "entries": [
+      {
+        "type": "interface",
+        "name": "immich-image",
+        "source": "src/immich-image-interface/index.ts"
+      },
+      {
+        "type": "display",
+        "name": "immich-image-display",
+        "source": "src/immich-image-display/index.ts"
+      },
+      {
+        "type": "endpoint",
+        "name": "immich",
+        "source": "src/immich-endpoint/index.ts"
+      }
+    ],
+    "host": "^10.0.0 || ^11.0.0",
+    "sandbox": {
+      "enabled": true,
+      "requestedScopes": {
+        "request": {
+          "methods": ["GET"],
+          "urls": ["https://*", "http://*"]
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "directus-extension build",
+    "dev": "directus-extension build --watch",
+    "validate": "directus-extension validate"
+  },
+  "devDependencies": {
+    "@directus/extensions-sdk": "^12.0.0",
+    "typescript": "^5.0.0",
+    "vue": "^3.4.0"
+  }
+}
