@@ -1,0 +1,11 @@
+node_modules/
+src/
+.DS_Store
+*.log
+.env
+.env.local
+DEV-NOTES.md
+EXTENSION-DESIGN.md
+tsconfig.json
+.gitignore
+.git/
