@@ -1,6 +1,6 @@
 {
   "name": "directus-extension-immich",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Select and embed images from Immich photo management",
   "icon": "photo_library",
   "license": "MIT",
