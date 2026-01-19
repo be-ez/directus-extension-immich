@@ -15,13 +15,13 @@ A Directus extension that integrates [Immich](https://immich.app/) with Directus
 ## Screenshots
 
 ### Select Button
-![Select from Immich button](docs/images/button.png)
+![Select from Immich button](https://raw.githubusercontent.com/be-ez/directus-extension-immich/main/docs/images/button.png)
 
 ### Search & Filters
-![Search and filter interface](docs/images/search_and_filter.png)
+![Search and filter interface](https://raw.githubusercontent.com/be-ez/directus-extension-immich/main/docs/images/search_and_filter.png)
 
 ### Field Interface
-![Immich Image field interface](docs/images/model.png)
+![Immich Image field interface](https://raw.githubusercontent.com/be-ez/directus-extension-immich/main/docs/images/model.png)
 
 ## Requirements
 
